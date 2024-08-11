@@ -1,0 +1,173 @@
+*  {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+.container{
+    margin: 0 auto;
+    padding-right: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-color: purple;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.5);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+#hero{
+    background-image: url("https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+     color: white;
+}
+.tag,.tag2,.tag3,.tag4{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tag h1{
+    font-size: 96px;
+}
+.tag h3{
+    font-size: 32px;
+}
+.tag p{
+    padding: 0 233px;
+}
+#music{
+    padding-top: 50px;
+    text-align: center;
+    background-color: rgb(147 135 147);
+    color: #780c3e;
+    height: 100vh;
+}
+.song span{
+    font-size: 50px;
+    font-weight: 500;
+}
+.tag2 h4{
+    font-size: 24px;
+}
+.tag2 h6{
+    font-size: 14px     
+}
+.btn,.btn2,.get{
+    border-radius: 5px;
+    background-color: red;
+    margin: 0 44%;
+    padding: 5px;
+}
+.song span img{
+    mix-blend-mode: multiply;
+}
+.img img{
+    mix-blend-mode: darken;
+    height: 500px;
+    width: 800px;
+}
+.btn :hover{
+    color: black;
+}
+
+.about{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 300PX;
+}
+.btn2 :hover{
+    color: black;
+    cursor: pointer;
+}
+#vedio{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(https://media.istockphoto.com/id/1399105128/vector/golden-glitter-confetti-falling-on-black-vector-background-shining-gold-shimmer-luxury.jpg?s=612x612&w=0&k=20&c=aiC5-QyzDJy6IZ91FiDYSxKvAVX4QZnohGBBbl5tczk=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    color:#0cf3de;
+    margin-top: 80px;
+}
+.tag4{
+    margin-top: -80px;
+    font-size: large;
+}
+.tag4 p{
+    padding: 0 30px;
+}
+#gift{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 0 118px;
+}
+.photo{
+    margin-left: 20px;
+}
+.get :hover{
+    color: black;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 27px 85px;
+    background-color:thistle ;
+}
+footer{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
